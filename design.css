@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+   background-color:rgb(48, 44, 44)
+  }
+.navbar{
+    display: flex;
+    gap: 500px;
+    padding-left: 50px;
+}
+.nav-element{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.logo{
+    color: orangered;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-right: 10px;
+}
+button{
+    background-color: orangered;
+    color: white;
+    width: 178px;
+    height:52px ;
+}
+.header{
+    color: white;
+    padding-left:50px ;
+}
+.designs h1{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-right:80px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    color: white;
+    width: fit-content;
+    border-radius:30%;
+     padding: auto;
+    height: 100px;
+}
+.arrow{
+    width: 50px;
+    margin-top:15px ;
+}
+.button-wrapper{
+    display: flex;
+    width: fit-content;
+    gap:20px;
+    background-color: rgb(124, 121, 121);
+    border-radius: 30px;
+    border: 2px white solid;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+}
+.icons{
+    margin-top: 30px;
+}
+.rotation{
+    rotate: -5deg;
+    Width:1510.83px;
+Height:147px;
+color: white;
+background-color: black;
+right:163.56px;
+Height:147px;
+Top:93.57px;
+Left: -103px;
+padding-top: 42px;
+padding-bottom: 42px;
+font-family: "Rubik", sans-serif;
+}
+.rotation img{background-color: rgb(79, 75, 75);
+               width: fit-content; }
+
+.middlepart{
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 150px;
+}
+.about-me{
+  padding-left: 150px;  
+}
+.rating{
+    padding-right: 150px;
+}
+.experience{
+    color: white;
+    padding-left:150px ;
+}
+.last-middle{
+  display: flex;  
+  justify-content: space-between;
+  color: white;
+  font-family:"Rubik", sans-serif ;
+  margin-top: 150px;
+  background-image: url(./Image\ folder\ 2/BG.png);
+}
+.grid-container{
+  display: grid;  
+  grid-template-columns: auto auto;
+  gap: 210px;
+}
+.achievement1{
+    padding-right:150px ;
+}
+.achievement2{
+    padding-right:150px ;
+}
+.achievement3{
+    padding-right:150px ;
+}
+.achievement1 h1{
+    border-bottom: 0.5px solid wheat;
+}
+.achievement2 h1{
+    border-bottom: 0.5px solid wheat;
+}
+.achievement3 h1{
+    border-bottom: 0.5px solid wheat;
+}
+.awards h1{
+   display: flex;
+   justify-content: center;
+   color: white;
+  font-family:"Rubik", sans-serif ;
+  margin-top: 150px;
+}
+.awards p{
+    text-align-last: center;
+    color: white;
+   font-family:"Rubik", sans-serif ;
+   margin-top: 30px;
+ }
+ .mobile-app{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    height:219px ;
+   margin-left:50px ;
+   margin-right: 50px;
+   border-bottom: 1px black solid;
+   font-family:"Rubik", sans-serif ;
+   margin-top:30px ;
+ }
+ .app-design{
+    padding-left: 50px;
+ }
+ .product-design{
+    padding-right:50px ;
+ }
+ .UI{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    height:219px ;
+   margin-left:50px ;
+   margin-right: 50px; 
+   margin-top: 40px;
+   font-family:"Rubik", sans-serif ;
+ }
+ .UI-DESIGN{
+    padding-left: 50px;
+ }
+ .portfolio h1{
+    font-family:"Rubik", sans-serif ;
+    color:white ;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+ }
+ .portfolio p{
+    font-family:"Rubik", sans-serif ;
+    color:white ;
+    text-align-last: center;
+ }
+ .portfolio-nav{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color:white ;
+    font-family: "Poppins", sans-serif;
+    margin-left:100px ;
+    margin-right:100px ;
+ }
+ .UX{
+    border: 1px black solid;
+    background-color: black;
+ }
+ .WEB{
+    border: 1px black solid;
+    background-color: orangered;
+ }
+ .APP{
+    border: 1px black solid;
+    background-color: black;
+ }
+ .GRAPHIC{
+    border: 1px black solid;
+    background-color: black;
+ }
+
+ .portfolio-desc{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family:"Rubik", sans-serif ;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+ }
+ .img2{
+    position: relative;
+    z-index: 2;
+    left: 70px;
+    right: 100px;
+    width: fit-content;
+    top:-70px;
+    width:fit-content;
+    margin-top: 60px;
+ }
+ .img1{
+    position: absolute;
+    z-index: 4;
+    margin-top: 60px;
+ }
+ .portfolio-image{
+    background-color: black;
+    width: 445px;
+    height: 330px;
+    margin-top: 30px;
+ }
+ .contact h3{
+           color:white;
+           display: flex;
+           justify-content: center;
+           font-family:"Rubik", sans-serif ;
+           margin-top: 70px;
+ }
+ .contact h1{
+    color:white;
+    text-align-last:center;
+    font-family:"Rubik", sans-serif ;
+}
+.projects{
+    color:white;
+    font-family:"Rubik", sans-serif ;
+    background-color:rgba(95, 47, 13, 0.268);
+    margin-left: 60px;
+    margin-right:60px ;
+}
+.address{
+        display: grid; 
+        grid-template-columns: auto auto;
+        gap :80px;
+}
+.address h1{
+    border-bottom: 1px white solid;
+    margin-left: 60px;
+}
+.projects h1{
+       margin-left:60px ;
+       margin-right: 60px;
+      padding-top:50px ;
+}
+.message h1{
+    margin-bottom: 10px;
+    border-bottom: 1px white solid;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 70px;
+}
+.attachment{
+    display:flex;
+    gap: 0px;
+}
+.attachment svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.attachment h1{
+    margin-left: 0px;
+}
+.submit h1{
+    background-color: orangered;
+    border: 1px solid orange;
+    width:fit-content;
+    padding:10px 20px 10px 20px;
+}
+.submit{padding-bottom: 20px;
+         }
+         .nav-element2{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            margin-top: 10px;
+            color: white;
+        }
+        .logo2{
+            color: orangered;
+            font-family: "Poppins", sans-serif;
+          font-weight: 100;
+          font-style: normal;
+          display: flex;
+          justify-content: center;
+          margin-top: 60px;
+          font-size: 30px;
+        }
+        .last-part{
+            background-color: black;
+        }
+        .icons2{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 80px;
+        }
+        .ending h3{
+            color:white;
+            font-family:"Rubik", sans-serif ;
+            display: flex;
+            justify-content: center;
+        }
